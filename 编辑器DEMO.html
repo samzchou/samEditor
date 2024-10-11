@@ -1,0 +1,127 @@
+<!-- 注意：必须使用!DOCTYPE HTML5标准网页的声明-->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 引入VUE2的依赖包 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <!-- 组件库包 -->
+    <script src="./dist/sam-editor.umd.js?tmp=177713416835358"></script>
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="./dist/sam-editor.css?tmp=188f713416835358">
+    <style>
+        html,
+        body,
+        #app {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app" style="height: 100%;">
+        <sam-editor :data="editorSetting" @change="changeEvent" />
+    </div>
+</body>
+<script>
+    const editorSetting = {
+        appId: '',                                              // 授权使用的ID
+        appKey: '',                                             // 授权使用的认证码
+        // 多人协同模式的配置
+        author: {
+            userId: 1,
+            userName: '张三',
+            commitId: '',
+            isAdmin: true,                                      // 是否为管理员（可编辑大纲）
+            lockedAll: false,                                   // 协同模式下默认全不锁定
+            assignOutline: true,                                // 是否可以分配大纲
+            memberList: [{                                      // 成员列表(分配大纲人员)
+                userName: 'sam', 
+                userId: '1' 
+            }, { 
+                userName: 'sam1', 
+                userId: '2' 
+            }, { 
+                userName: 'sam2', 
+                userId: '3' 
+            }],
+            unlockedAutoSave: true,                             // 解锁后自动保存
+            lockedTimes: 10000, 	                            // 锁定后轮询提交锁定章节间隔
+            forceUnlock: true,                                  // 强制全部解锁操作
+            outlineLevel: 2,                                    // 可无限分配章节条目的层级，不设置则为无限级
+        },
+        isStandard: true,
+        admin: true,
+        editorURL: 'http://192.168.0.140:9088', 			    // JAVA接口地址 appConfig.VUE_APP_EDITOR_URL || process.env.VUE_APP_EDITOR_URL
+        nodeURL:'http://127.0.0.1:9001', 					    // nodeServer服务器地址
+        pluginURL: 'http://192.168.0.239:9003',                 // 外挂插件地址 process.env.VUE_APP_PLUGIN_PATH,
+        socketURL:'ws://192.168.0.17:13100/ws-api', 	        // socket地址
+        dmsApi: 'http://192.168.0.17:20080',				    // DMS额外接口地址						
+        // readonly: true,                                      // 只读模式
+        zoomIn: true,                               		    // 页面缩放
+        openSidebar: true,                                      // 默认打开左侧栏
+        chapter: ['6', '8', '9'],                   		    // 章节标识;用于目次数据的筛选
+        // toolbar1: '',
+        // menuBar: false,
+        // 菜单内容
+        menu: {
+            file: { title: 'File', items: 'save | searchreplace | exportFile | close-btn' },
+            edit: { title: 'Edit', items: 'undo redo | cut copy paste | searchreplace' },
+            insert: { title: 'Insert', items: 'charmap | paragraph-btn image inserttable | math graphy | hr' },
+            Tools: { title: 'Tools', items: 'validatDms readDoc knowledgeGraph | translate' },
+            help: { title: 'Help', items: 'help concatus | bzt-ver' } // upgrade
+        },
+        // 列项样式
+        bullets: [
+            { text: '列项—— 【一级】', value: 'line', level: 1 },
+            { text: '字母 a) b) c) 【一级】', value: 'lower', level: 1 },
+            { text: '数字框 [1] [2] [3]【一级】', value: 'num-index', level: 0 },
+            { text: '数字 1) 2) 3)【二级】', value: 'num', level: 2 },
+            { text: '符号 ● 【二级】', value: 'circle', level: 2 },
+            { text: '重置编号', cmd: 'restBulletNum' },
+        ],
+        // exportType: ['docx','wps'],							// 导出文档类型。默认导出['docx','wps','pdf']
+        // 字体格式
+        // font_formats: '宋体=simsun;黑体=SimHei;Times New Roman=times new roman',
+        // 菜单栏
+        menuBar: 'file edit insert pageElement levelStyle elementStyle Tools help',
+        // 第一行工具栏
+        toolbar1: 'undo redo | close-btn save | catalogue setCatalogue indexMarker | collect-chapter collect-unchapter | collect-list collect-level | charmap-btn paragraph-btn image freeDom link | table separateTable | math graphy | fontName fontSize forecolor backcolor | quoteClause',
+        // 第二行工具栏
+        toolbar2: 'example-btn zhu-btn zhu-imgtable footer-btn imgtitle tabletitle | quote-btn term quota references | comment | breakPage mergePage page-type pageLayout exportFile | alignment indent2em removeformat | code searchreplace fullscreen insertTable',
+        // 快捷工具条
+        quickbars: 'bold italic underline strikethrough superscript subscript',
+        // 公式下拉菜单
+        mathItems: ['custom', 'number'],                        // 自定义 手写 编号
+        navShow: true,                                          // 左侧导航栏显示与否，默认显示
+        autoMathNum: true,                                      // 自动生成公式编号
+        draftTimes: 30000,                                      // 草稿箱自动保存间隔
+        titleSpace: true,                                       // 页面标题是否插入空格字符
+        notTableHeader: false,                                  // 续表需要续表表头与否
+        page: {
+            expand: true,                                       // 页面高度自动伸展
+            id: 'f027fd79-70c3-4e46-96ca-2371df2e156a'          // 文档的docID
+        },
+        htmlContent: ``                                         // 默认文档内容
+    }
+    // 申明组件
+    const { samEditor } = window['sam-editor'];
+    // Vue.component('sam-editor', samEditor);
+    new Vue({
+        el: '#app',
+        components: {
+            'sam-editor': samEditor
+        },
+        data: {
+            editorSetting: editorSetting
+        },
+        methods: {
+            // 接收编辑器的上报事件
+            changeEvent(obj) {
+                // console.log('changeEvent==>', obj)
+            }
+        }
+    });
+</script>
+
+</html>

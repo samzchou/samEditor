@@ -1,66 +1,89 @@
-# Introduction
+# sam-editor
+一个集成富文本的在线WORD文档编辑器
 
-## 1. Overview
+[ [查看演示 Demo](http://editor.bzton.com/) ]
+[ [更新日志](https://github.com/xyxiao001/vue-cropper/blob/master/CHANGELOG.md) ]
 
-The Introduction section of the Data Subscription Service document provides a comprehensive overview of the service, out
-lining its purpose, scope, and objectives. It introduces the concept of data subscriptions and highlights the various ty
-pes of datasets available for users to subscribe to, as well as the importance of notifications triggered by data events
 
-## 2. Purpose of the Data Subscription Service
 
-## Description
+## 一、安装使用
 
-The primary purpose of the Data Subscription Service is to empower users to stay informed about changes in datasets that
- are relevant to their interests. By allowing users to subscribe to specific datasets, the service ensures that they rec
-eive timely notifications about new data entries, modifications, and other significant events.
-## 3. Scope of the Service
 
-## Description
+### 1. 安装
 
-The Data Subscription Service encompasses a wide range of datasets, including documents, images, files, videos, and data
- stored in relational databases. This diversity allows users from various domains?such as academia, business, and medi
-a?to leverage the service for their specific needs.
-## 4. Objectives of the Service
-
-## Description
-
-The objectives of the Data Subscription Service include enhancing user engagement with datasets, providing a seamless su
-bscription experience, and ensuring that users receive relevant notifications based on their preferences. The service ai
-ms to facilitate efficient data management and retrieval, ultimately improving decision-making processes for users.
-## 5. Significance of Notifications
-
-## Description
-
-Notifications play a crucial role in the Data Subscription Service by alerting users to changes in their subscribed data
-sets. These notifications are triggered by specific events, such as the addition of new data entries, modifications to e
-xisting entries, or the removal of data. Timely notifications ensure that users are always up-to-date with the latest in
-formation.
-## 
-
-# Introduction
-
-## 1. Overview
-# new-editor
-
-## Project setup
+```bash
+# npm 安装
+npm install sam-editor
 ```
-yarn install
+```bash
+# yarn 安装
+yarn add sam-editor
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+### 2. 引入 sam-editor
+`Vue 3` 组件内引入
+```bash
+import { samEditor } from 'sam-editor';
+import 'sam-editor/index/style.css';
 ```
 
-### Lints and fixes files
-```
-yarn lint
+`Vue3` 全局引入
+```js
+import { samEditor } from 'sam-editor';
+import 'sam-editor/index/style.css';
+
+const app = createApp(App)
+app.use(VueCropper)
+app.mount('#app')
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`nuxt` 引入方式
+```js
+if(process.browser) {
+  samEditor = require('sam-editor')
+  Vue.use(samEditor)
+}
+```
+
+### 3. 代码中使用
+
+```html
+<sam-editor ref="samEditor" :data="editorSetting" @change="changeEvent"></sam-editor>
+```
+
+
+## 二、文档
+
+### 1. props 属性配置
+```js
+editorSetting: {
+    readonly: false,                                // 只读模式
+    hideMenu: true,                                 // 隐藏菜单
+    hideNav: true,                                  // 隐藏左侧导航栏
+    menu: {                                         // 菜单栏
+        file: { title: 'File', items: 'newStandard openFile save-btn restoredraft | preview | close-btn' },
+        edit: { title: 'Edit', items: 'undo redo | cut copy paste | searchreplace' },
+        view: { title: 'View', items: ' | preview fullscreen' },
+        insert: { title: 'Insert', items: 'image inserttable | charmap hr | math linecode-btn textnode-btn' },
+        format: { title: 'Format', items: 'bold italic underline strikethrough superscript subscript | fontformats fontsizes align lineheight | forecolor backcolor | removeformat' },
+        tools: { title: 'Tools', items: 'spellchecker spellcheckerlanguage | code' },
+        table: { title: 'Table', items: 'inserttable | cell row column | tableprops deletetable' },
+        help: { title: 'Help', items: 'help | bzt-ver' },
+    },
+    toolbar1: 'undo redo | close-btn save-btn | queue levels | hr finished-btn paragraph-btn title-block formatting | alignment indent2em lineheight | image charmap table | pageLayout page-type | searchreplace preview fullscreen | code',
+    toolbar2: 'zhu-btn | example-btn | articleTitle imgtitle-btn | footer-btn | math graphy | introduceGroup quote-btn term quota | comment | catalogue | exportFile mergePage',
+    quickbars: 'bold italic underline strikethrough superscript subscript',
+    draftTimes: 30000,
+    htmlContent: ''
+}
+```
+
+### 2. 可用回调方法 changeEvent
+
+- `@realTime` 实时预览事件
+- `@imgMoving`  图片移动回调函数
+- `@cropMoving` 截图框移动回调函数
+- `@imgLoad`  图片加载的回调, 返回结果 `success`,  `error`
+
+
+### 3. 外部接口调用
