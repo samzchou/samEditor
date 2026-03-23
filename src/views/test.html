@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table Column Normalization Example</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            button {
+                margin: 20px 0;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table Column Normalization Example</h1>
+        <table id="myTable">
+            <colgroup>
+                <col style="background-color: yellow;" />
+                <col style="background-color: #d4d4f9;" />
+                <col style="background-color: #f5ce87;" />
+                <col style="background-color: pink;" />
+                <col style="background-color: #CCC;" />
+            </colgroup>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Span 2 rows</td>
+                <td>Normal cell</td>
+                <td>Normal cell</td>
+                <td>Normal cell</td>
+            </tr>
+            <tr>
+                <td colspan="2">Span 2 columns</td>
+                <td>Normal cell</td>
+            </tr>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td colspan="2">Cell 4</td>
+                <td>Extra cell</td>
+            </tr>
+            <tr>
+                <td colspan="2">Only one cell</td>
+            </tr>
+        </table>
+        <button onclick="normalizeTableColumns(document.getElementById('myTable'))">Normalize Table</button>
+    </body>
+    <script>
+        function normalizeTableColumns(table) {
+            let maxColumns = 0;
+            const colgroups = table.getElementsByTagName('colgroup');
+            // 使用 colgroup 来确定最大列数
+            if (colgroups.length > 0) {
+                const cols = colgroups[0].getElementsByTagName('col');
+                maxColumns = cols.length;
+            }
+            console.log(`Maximum columns based on colgroup: ${maxColumns}`);
+            const rows = table.rows;
+            let rowSpans = [];
+            // 调整每一行的列数
+            for (let i = 0; i < rows.length; i++) {
+                let currentColumns = 0;
+                const cells = rows[i].cells;
+                // 处理前面行的 rowspan
+                for (let j = 0; j < rowSpans.length; j++) {
+                    if (rowSpans[j] > 0) {
+                        currentColumns++;
+                        rowSpans[j]--;
+                    }
+                }
+                // 计算当前行的实际列数，考虑 colspan
+                for (let j = 0; j < cells.length; j++) {
+                    const colSpan = cells[j].colSpan || 1;
+                    const rowSpan = cells[j].rowSpan || 1;
+                    currentColumns += colSpan;
+                    // 更新 rowSpans 数组
+                    if (rowSpan > 1) {
+                        for (let k = 0; k < colSpan; k++) {
+                            rowSpans.push(rowSpan - 1);
+                        }
+                    }
+                }
+                console.log(`Row ${i + 1}: Current columns = ${currentColumns}`);
+                if (currentColumns > maxColumns) {
+                    // 如果列数过多，调整 colspan
+                    let excessColumns = currentColumns - maxColumns;
+                    for (let j = cells.length - 1; j >= 0 && excessColumns > 0; j--) {
+                        const colSpan = cells[j].colSpan || 1;
+                        if (colSpan > 1) {
+                            const reduction = Math.min(colSpan - 1, excessColumns);
+                            cells[j].colSpan = colSpan - reduction;
+                            excessColumns -= reduction;
+                        }
+                    }
+                }
+                // 如果列数仍然不足，添加新单元格
+                while (currentColumns < maxColumns) {
+                    const newCell = rows[i].insertCell();
+                    newCell.innerHTML = '&nbsp;';
+                    currentColumns++;
+                }
+                // 移除已经结束的 rowspan
+                rowSpans = rowSpans.filter(span => span > 0);
+            }
+            console.log("Table normalization complete");
+        }
+    </script>
+</html>

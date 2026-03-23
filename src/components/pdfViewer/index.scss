@@ -1,0 +1,144 @@
+.pdfviewer-container{
+    height: 100%;
+    background-color: #555;
+    .toolbar{
+        height: 40px;
+        background-color: rgba(0,0,0,.2);
+        color:#CCC;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 15px;
+        position: relative;
+        box-shadow: 2px 2px 4px 0 rgba(0,0,0,.4);
+        .cons{
+            display: flex;
+            flex:1;
+            justify-content: center;
+            align-items: center;
+            ::v-deep .current-page{
+                width: 30px;
+                .el-input{
+                    >input{
+                        background-color: rgba(0,0,0,.1);
+                        border-color: rgba(0,0,0,.15);
+                        text-align: center;
+                        line-height: 25px;
+                        height: 25px;
+                        padding: 0;
+                    }
+                }
+            }
+            .zoom{
+                ::v-deep .el-input-number{
+                    width: 100px;
+                    span{
+                        border: 0;
+                        background-color: rgba(0,0,0,.1);
+                        border-radius: 50%;
+                    }
+                    input{
+                        background-color: transparent;
+                        color: #CCC;
+                        border: 0;
+                    }
+                }
+                >i{
+                    cursor: pointer;
+                }
+                >span{
+                    margin: 0 10px;
+                    background-color: rgba(0,0,0,.3);
+                    padding: 5px;
+                    border-radius: 5px
+                }
+            }
+        }
+        .btns{
+
+        }
+    }
+    .content{
+        height: calc(100% - 40px);
+        display: flex;
+        .left-wrapper{
+            flex: 0 0 250px;
+            display: flex;
+            background-color: rgba(0,0,0,.4);
+            scroll-behavior:smooth;
+            .nav{
+                flex: 0 0 30px;
+                background-color: rgba(0,0,0,.2);
+                padding: 15px 0;;
+                >li{
+                    text-align: center;
+                    cursor: pointer;
+                    color:#CCC;
+                    height: 35px;
+                    >i{
+                        font-size:1.5em;
+                    }
+                }
+            }
+            .lis{
+                flex:1;
+                overflow: hidden;
+                .lists{
+                    margin:20px;
+                    opacity: .6;
+                    cursor: pointer;
+                    transition: all .25s;
+                    &.active{
+                        border:4px solid #94c7fb;
+                        opacity: 1;
+                    }
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+            }
+            .pages{
+                flex:1;
+                overflow: hidden;
+                ul{
+                    padding: 15px;
+                    >li{
+                        color:rgba(255,255,255,.5);
+                        line-height: 2;
+                        cursor: pointer;
+                        font-size: 14px;
+                        border-bottom: 1px dashed #484848;
+                        &.active{
+                            color:#FFF;
+                            font-weight: bold;
+                            &:before{
+                                content: "> "
+                            }
+                        }
+                        &:hover{
+                            color:#FFF;
+                        }
+                    }
+                }
+
+            }
+        }
+        .main-wrapper{
+            flex:1;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            scroll-behavior:smooth;
+            .viewer{
+                margin-top: 2%;
+                margin-bottom: 2%;
+                transition: all .3s;
+                .list-pdf{
+                    margin: 30px 0;
+                    position: relative;
+                    box-shadow: 5px 5px 6px 0 rgba(0,0,0,.4);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+import "./langs/zh_CN";
+import "./icons/default";
+import './plugins/newDoc';
+import './plugins/save';
+import './plugins/charmap';
+import './plugins/image';
+import './plugins/imagetools';
+import './plugins/lists';
+import './plugins/hr';
+import './plugins/code';
+import './plugins/codesample';
+import './plugins/letterspacing';
+import './plugins/link';
+import './plugins/pagebreak';
+import './plugins/print';
+import './plugins/fullscreen';
+import './plugins/nonbreaking';
+import './plugins/noneditable';
+import './plugins/preview';
+import './plugins/quickbars';
+import './plugins/help';
+import './plugins/contextmenu';
+import './plugins/fontName';
+import './plugins/fontSize';
+import './plugins/table';
+import './plugins/advlist';
+import './plugins/search';
+import './plugins/searchreplace';
+import './plugins/indent2em';
+import './plugins/maths';
+import './plugins/graphy';
+import './plugins/importword';                  // 导入word
+import './plugins/paste';
+import './plugins/queue';                       // 无序列项
+import './plugins/levels';                      // 有序列项
+import './plugins/bzton';                       // 标准通插件合集
+import './plugins/pageLayout';
+import './plugins/comment';
+import './plugins/quota';
+import './plugins/term';
+import './plugins/exportFile';
+import './plugins/openFile';
+import './plugins/catalogue';
+import './plugins/setIndex';
+import './plugins/translate';
+import './plugins/chapter';
+import './plugins/listItem';
+import './plugins/tableSplit';
+import './plugins/painterFormat';
+import './plugins/freeDom';
+import './plugins/media';

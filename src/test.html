@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            td, th {
+                border: 1px solid black;
+                vertical-align: top;
+                padding: 10px;
+                max-height: 50px;
+                /* 设置最大高度 */
+                overflow: hidden;
+                /* 隐藏超出部分 */
+                word-wrap: break-word;
+            }
+            .new-row {
+                background-color: #f9f9f9;
+            }
+        </style>
+        <title>Table Content Overflow</title>
+    </head>
+    <body>
+        <table id="myTable">
+            <tr>
+                <td rowspan="2">这是一个很长的内容，用于测试超出容器高度的情况。<br>继续的内容继续在这里。</td>
+                <td>单元格2</td>
+            </tr>
+            <tr>
+                <td>单元格3</td>
+            </tr>
+        </table>
+        <script>
+            function handleOverflow() {
+                const table = document.getElementById('myTable');
+                const bodyCells = [];
+                // 首先，收集所有body中的单元格
+                for (let i = 0; i < table.rows.length; i++) {
+                    const row = table.rows[i];
+                    for (let j = 0; j < row.cells.length; j++) {
+                        const cell = row.cells[j];
+                        if (cell.rowSpan > 1 || cell.colSpan > 1) {
+                            // 将单元格添加到相应的位置
+                            while (bodyCells.length < i + cell.rowSpan) {
+                                bodyCells.push([]);
+                            }
+                            while (bodyCells[i].length < j + cell.colSpan) {
+                                bodyCells[i].push('');
+                            }
+                            bodyCells[i][j] = cell;
+                        }
+                    }
+                }
+                // 然后，处理每一行中的单元格内容超出
+                for (let i = 0; i < bodyCells.length; i++) {
+                    for (let j = 0; j < bodyCells[i].length; j++) {
+                        const cell = bodyCells[i][j];
+                        if (cell && cell.scrollHeight > cell.clientHeight) {
+                            let content = cell.innerHTML;
+                            let newContent = '';
+                            let remainingHeight = cell.scrollHeight - cell.clientHeight;
+                            while (remainingHeight > 0 && content.length > 0) {
+                                let contentToMove = content.substring(content.lastIndexOf('<br>') + 4);
+                                if (contentToMove.length > 0) {
+                                    newContent = contentToMove + newContent;
+                                    content = content.substring(0, content.lastIndexOf('<br>') + 4);
+                                    remainingHeight -= cell.clientHeight;
+                                }
+                                if (contentToMove.length === 0) {
+                                    // 如果当前行内容不再需要拆分，尝试将内容转移到下一行的末尾
+                                    // 注意：如果下一行也被占用，则需要进一步处理或提示无法正确显示
+                                    const nextRow = i + cell.rowSpan;
+                                    const nextColumn = j + cell.colSpan;
+                                    if (bodyCells[nextRow] && bodyCells[nextRow][nextColumn - 1]) {
+                                        bodyCells[nextRow][nextColumn - 1].innerHTML += content;
+                                    }
+                                    cell.innerHTML = content;
+                                    break;
+                                }
+                            }
+                            // 如果还有剩余内容，创建新行并添加到正确的位置
+                            if (newContent.length > 0) {
+                                const newRow = table.insertRow(i + cell.rowSpan);
+                                const newCell = newRow.insertCell(j);
+                                newCell.innerHTML = newContent;
+                            }
+                        }
+                    }
+                }
+            }
+            // 调用函数处理整个表格的内容超出问题
+            handleOverflow();
+        </script>
+    </body>
+</html>

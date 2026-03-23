@@ -1,0 +1,12 @@
+export { default as docModel } from './components/docModel.vue';
+export { default as docAi } from './components/docAi.vue';
+export { default as docQuote } from './components/docQuote.vue';
+export { default as docNorm } from './components/docNorm.vue';
+export { default as docTerm } from './components/docTerm.vue';
+export { default as docAnnotation } from './components/docAnnotation.vue';
+export { default as docKnowledge } from './components/docKnowledge.vue';
+export { default as docAtlas } from './components/docAtlas.vue';
+export { default as docOwner } from './components/docOwner.vue';
+export { default as docComparison } from './components/docComparison.vue';
+export { default as docDuplicate } from './components/docDuplicate.vue';
+export { default as aiTools } from './components/aiTools.vue';

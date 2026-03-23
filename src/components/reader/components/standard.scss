@@ -1,0 +1,112 @@
+.standard-info-container{
+    width: 100%;
+    height: 100%;
+    padding:10px 15px;
+    fieldset{
+        border: 1px solid #EEE;
+        margin-bottom: 20px;
+        background-color: #FFF;
+        box-shadow: 4px 4px 3px 0 rgba(0,0,0,.15);
+        >legend{
+            font-weight: bold;
+            font-size: 14px;
+            color: #2e3197;
+            margin-left: 10px;
+        }
+
+        >ul.list{
+            padding:10px;
+            >li{
+                // line-height: 25px;
+                padding: 5px;
+                display: flex;
+                align-items: flex-start;
+                font-size: 12px;
+                border-bottom: 1px dashed #dfdfdf;
+                &:last-child {
+                    border:0;
+                }
+                >label{
+                    flex: 0 0 70px;
+                    font-weight: bold;
+                }
+                >span{
+                    flex: 1;
+                    /* overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis; */
+                }
+            }
+        }
+        >ul.avatars{
+            >li {
+                display: flex;
+                align-items: center;
+                padding:10px;
+                float: left;
+                width: 33.333%;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        >ul.catalogs{
+            >li{
+                padding:10px;
+                float: left;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                >i{
+                    font-size: 2.5em;
+                }
+            }
+        }
+        >ul.img-list{
+            >li {
+                padding:10px;
+                float: left;
+                width: 25%;
+                height: 80px;
+                cursor: pointer;
+                >img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        >ul.doc-list{
+            padding:10px;
+            >li {
+                padding:5px 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px dashed #EEE;
+                ::v-deep .el-button {
+                    padding: 0;
+                    font-size: 12px;
+                }
+            }
+        }
+        >ul.video-list{
+            padding:10px 0;
+            >li {
+                padding:10px;
+                float: left;
+                width: 50%;
+                height: 120px;
+                cursor: pointer;
+                >video{
+                    width: 100%;
+                    height: 100%;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+}

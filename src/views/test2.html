@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>去除 rowspan 和 colspan</title>
+</head>
+<body>
+    <div>
+        <button onclick="normalizeTable('myTable')">normalizeTable</button>
+        <button onclick="revertMerges('myTable')">revertMerges</button>
+    </div>
+
+    <table id="myTable" style="width: 100%; border: 2px solid #333;" data-id="ac142b90-67ad-422d-8f3c-61884fea8487">
+        <colgroup>
+            <col style="background-color: yellow; width: 20.1657%;" data-mce-style="background-color: yellow; width: 20.1657%;">
+            <col style="background-color: #d4d4f9; width: 20.1657%;" data-mce-style="background-color: #d4d4f9; width: 20.1657%;">
+            <col style="background-color: #f5ce87; width: 20.1657%;" data-mce-style="background-color: #f5ce87; width: 20.1657%;">
+            <col style="background-color: pink; width: 20.1657%;" data-mce-style="background-color: pink; width: 20.1657%;">
+            <col style="background-color: #cccccc; width: 10.139%;" data-mce-style="background-color: #cccccc; width: 10.139%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <th style="height: 28px;" data-index="0" class="level0">Header 1</th>
+                <th style="height: 28px;" data-index="1" class="level0">Header 2</th>
+                <th style="height: 28px;" data-index="2" class="level0">Header 3</th>
+                <th style="height: 28px;" data-index="3" class="level0">Header 4</th>
+                <td data-index="4" class="level0">&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="" data-index="0" class="level0">Span 2 rows</td>
+                <td style="" data-index="1" class="level0">Normal cell</td>
+                <td style="" data-index="2" class="level0">Normal cell</td>
+                <td style="" data-index="3" class="level0">Normal cell</td>
+                <td data-index="4" class="level0">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="" data-index="1" class="level0">Span 2 columns</td>
+                <td style="" data-index="3" class="level0">Normal cell</td>
+                <td data-index="4" class="level0">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="height: 36px;" data-index="0" class="level0">Cell 1</td>
+                <td style="height: 36px;" data-index="1" class="level0">Cell 2</td>
+                <td style="height: 36px;" data-index="2" class="level0">Cell 3</td>
+                <td colspan="1" style="height: 36px;" data-index="3" class="level0">Cell 4</td>
+                <td style="height: 36px;" data-index="4" class="level0">Extra cell</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="" data-index="0" class="level0">Only one cell</td>
+                <td data-index="2" class="level0">&nbsp;</td>
+                <td data-index="3" class="level0">&nbsp;</td>
+                <td data-index="4" class="level0">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function normalizeTable(tableId) {
+            const table = document.getElementById(tableId);
+            const colCount = table.querySelectorAll('col').length;
+
+            table.querySelectorAll('tr').forEach((row, rowIndex) => {
+                const cells = Array.from(row.querySelectorAll('td, th'));
+
+                // 遍历当前行的所有单元格
+                cells.forEach((cell, cellIndex) => {
+                    const rowspan = parseInt(cell.getAttribute('rowspan')) || 1;
+                    const colspan = parseInt(cell.getAttribute('colspan')) || 1;
+
+                    if (rowspan > 1) {
+                        cell.dataset.rowspan = rowspan;
+                    }
+                    if (colspan > 1) {
+                        cell.dataset.colspan = colspan;
+                    }
+                    // 复制单元格内容到对应的单元格
+                    for (let r = 0; r < rowspan; r++) {
+                        for (let c = 0; c < colspan; c++) {
+                            if (r === 0 && c === 0) {
+                                // 移除原单元格的 rowspan 和 colspan 属性
+                                cell.removeAttribute('rowspan');
+                                cell.removeAttribute('colspan');
+                            } else {
+                                // 创建新单元格并复制内容
+                                const newRow = table.rows[rowIndex + r] || table.insertRow(rowIndex + r);
+                                newRow.dataset.newRow = true;
+                                const newCell = newRow.insertCell(cellIndex + c);
+                                newCell.dataset.newCell = true;
+                                newCell.innerHTML = '&nbsp;';
+                                newCell.removeAttribute('rowspan');
+                                newCell.removeAttribute('colspan');
+                            }
+                        }
+                    }
+                });
+
+                // 确保每一行的单元格数量与列数一致
+                while (row.cells.length < colCount) {
+                    const newCell = row.insertCell();
+                    newCell.dataset.newCell = true;
+                    newCell.innerHTML = '&nbsp;';
+                }
+            });
+        }
+        function revertMerges(tableId) {
+            const table = document.getElementById(tableId);
+            table.querySelectorAll('tr').forEach((row, rowIndex) => {
+                const cells = Array.from(row.querySelectorAll('td, th'));
+                cells.forEach((cell, cellIndex) => {
+                    if (cell.dataset.rowspan) {
+                        cell.rowSpan = cell.dataset.rowspan;
+                    }
+                    if (cell.dataset.colspan) {
+                        cell.colSpan = cell.dataset.colspan;
+                    }
+                    if (cell.dataset.newCell) {
+                        cell.remove();
+                    }
+                })
+            })
+        }
+
+
+    </script>
+</body>
+</html>

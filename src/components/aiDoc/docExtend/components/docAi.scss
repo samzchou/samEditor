@@ -1,0 +1,191 @@
+.doc-ai-cmp{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .content {
+        flex:1;
+        overflow: hidden;
+        .loading-outline{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            ::v-deep .el-progress{
+                .el-progress__text{
+                    white-space: pre-wrap;
+                }
+            }
+        }
+        .sample-text{
+            padding:20px;
+            text-align: center;
+            font-size: 16px;
+            color:#ff8f00;
+        }
+        .ai-list{
+            padding: 15px;
+            >ul{
+                overflow: hidden;
+                >li{
+                    .question{
+                        display: flex;
+                        justify-content: flex-end;
+                        margin: 10px 0;
+                        >div{
+                            padding: 10px;
+                            background-color: rgba(33, 89, 169, .2);
+                            border-radius: 8px;
+                        }
+                    }
+                    .q-btns{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        margin: -7px 5px 0;
+                        >*{
+                            margin-left:8px;
+                            cursor: pointer;
+                        }
+                    }
+                    .answer{
+                        display: flex;
+                        margin: 10px 0;
+                        >div {
+                            &:first-child{
+                                margin-right: 10px;
+                                >i{
+                                    font-size: 2em;
+                                }
+                            }
+                            &:last-child {
+                                flex: 1;
+                                padding: 10px;
+                                background-color: #e0feff;
+                                border: 1px solid rgba(0,0,0,.06);
+                                border-radius: 8px;
+                                ::v-deep .ai-result{
+                                    >p{
+                                        line-height: 2;
+                                        // padding-left:1em;
+                                        padding: 5px 10px 5px;
+                                        &.str-title{
+                                            padding-left:0;
+                                            border-bottom:1px solid rgba(0,0,0,.04);
+                                            font-size:14px;
+                                        }
+                                    }
+                                }
+                                .btns{
+                                    padding: 5px 0;
+                                    border-top: 1px solid rgba(0, 0, 0, .04);
+                                    margin-top: 8px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-end;
+                                    >span{
+                                        margin: 0 3px;
+                                        cursor: pointer;
+                                        color: rgab(0,0,0,.5);
+                                        &:hover{
+                                            color:#000;
+                                        }
+                                    }
+                                }
+                            }
+                            .toc-list{
+                                >ul{
+                                    padding: 5px 10px;
+                                    >li{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        padding: 5px 0px;
+                                        border-bottom: 1px solid rgba(0,0,0,.06);
+                                        &:last-child{
+                                            border:0;
+                                        }
+                                        .tit{
+                                            >span{
+                                                &:first-child{
+                                                    margin-right: 10px;
+                                                }
+                                            }
+                                        }
+                                        .icons{
+                                            >i{
+                                                font-size: 1.5em;
+                                                color: #CCC;
+                                                &.loaded{
+                                                    color:#74d559;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .input{
+        // background-color: #e2f0ff;
+        // padding: 10px;
+        .tool-btns{
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom:12px;
+            >div{
+                display: flex;
+                align-items: center;
+                >*{
+                    margin: 0 3px;
+                }
+                ::v-deep button{
+                    padding: 0px !important;
+                    // background-color: #FFF;
+                    // border-radius: 3px;
+                    >i{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .submits{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #e2f0ff;
+            padding: 10px;
+            ::v-deep .el-textarea{
+                flex:1;
+                >textarea{
+                    background-color: transparent;
+                    border: 0;
+                    font-size: 14px;
+                }
+            }
+            .form-btn{
+                flex: 0 0 90px;
+                .submit-btn {
+                    cursor: pointer;
+                    color: #638ae3;
+                    margin: 0 5px;
+                    >i{
+                        font-size: 2em;
+                    }
+                    &.disabled{
+                        opacity: 0.3;
+                        pointer-events: none;
+                        cursor: not-allowed;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

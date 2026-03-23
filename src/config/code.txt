@@ -1,0 +1,137 @@
+<div class="page-container expand" data-type="doubleSided" data-id="06738377e2654cb59bdf5e5a46d00d86" data-stdkind="1400" data-outlineid="68e07351-ef55-4448-ac1a-f84a12906e44" data-title="fsy另一台电脑域名测试合并12.07-01" data-no="Q/GN W0101007—2022" style="transform: scale(1);">
+<div class="info-block cover fixed" contenteditable="false">
+<div class="icon qb std-sign" data-icon="qb" style="font-size: 42pt;"><span data-tag="stdSign" data-name="标准代号" data-type="3" class="stdSign" style="font-size: 42pt;">Q/GN</span></div>
+<h1 class="title" style="font-size: 25.5pt;" data-type="3"><span class="stdTitle" data-tag="stdTitle" data-name="标准名称" data-type="1">公牛集团企业标准</span></h1>
+<div class="en-title hide"><span data-tag="stdEnTitle" data-name="标准英文抬头" data-type="3" class="stdEnTitle"></span><i></i></div>
+<div class="numbers">
+<p class="tt gb"><span data-tag="stdSign" data-type="3" data-name="Q/XXX" class="stdSign">Q/GN</span> <span class="stdNo" data-tag="stdNo" data-name="年代号—编号" data-type="3">W0101007—2022</span></p>
+</div>
+<hr class="title-hr" size="1" />
+<div class="content">
+<p class="std-name"><span data-tag="stdName" data-name="标准名称" data-type="3" class="stdName">fsy另一台电脑域名测试合并12.07-01</span></p>
+<p class="en-name"><span data-tag="stdNameEn" data-name="标准英文译名" data-type="3" class="stdNameEn"></span></p>
+<p class="sign-name"></p>
+<p class="tag-content std-edition"></p>
+<p class="tag-updatetime date-time"></p>
+</div>
+<div class="footer-publish date-time"><span data-tag="stdPublishDate" data-name="发布时间" class="stdPublishDate" data-type="5">XXXX-XX-XX</span></div>
+<div class="footer-put date-time"><span data-tag="stdPerformDate" data-name="实施时间" class="stdPerformDate" data-type="5">XXXX-XX-XX</span></div>
+<hr class="footer-hr" />
+<div class="footer-table">
+<div class="uc main-util">
+<p class="releaseDepartment" style="font-size: 14pt;">公牛集团</p>
+</div>
+<div class="ub">发布</div>
+</div>
+</div>
+<div class="info-block catalogue fixed" data-no="Q/GN W0101007—2022" data-pagenum="Ⅰ">
+<div class="header-title" contenteditable="false">目    次</div>
+<div class="catalogue-list">
+<div class="fld-char level0" data-mk="7ef291be-d001-46d3-9dbb-d1c5bb1eaed7"><span>前言</span><span class="line"></span><span class="num">Ⅰ</span></div>
+<div class="fld-char level1" data-mk="ac8f9b15-f6bc-4d8d-8eed-264cc4114f09"><span class="level level1" data-number="1">范围</span><span class="line"></span><span class="num">1</span></div>
+<div class="fld-char level1" data-mk="b295f153-e787-4518-8ffd-325c4542c185"><span class="level level1" data-number="2">规范性引用文件</span><span class="line"></span><span class="num">2</span></div>
+<div class="fld-char level1" data-mk="c0802f52-f647-40d5-a881-d58d21df92d0"><span class="level level1" data-number="3">术语和定义</span><span class="line"></span><span class="num">3</span></div>
+<div class="fld-char level1" data-mk="40f7e702-24b8-4f81-8391-1727c059fced"><span class="level level1" data-number="4">技术要素</span><span class="line"></span><span class="num">4</span></div>
+<div class="fld-char level1" data-mk="90349047-3d57-498f-92b5-3bcb009a58e0"><span class="level level1" data-number="5">新章节啊啊</span><span class="line"></span><span class="num">5</span></div>
+<div class="fld-char level1" data-mk="be1769a0-f2cc-45d3-b682-e09f35d8e604"><span class="level level1" data-number="6">新章节密码</span><span class="line"></span><span class="num">6</span></div>
+</div>
+</div>
+<div data-title="前言" data-outlineid="7ef291be-d001-46d3-9dbb-d1c5bb1eaed7" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="1" data-no="Q/GN W0101007—2022" data-pagenum="Ⅱ" class="info-block preface fixed disabled left" style="padding: 25mm 25mm 20mm 20mm;" data-contentid="023b65e2-f7ae-4222-8870-3b08f4cbfa19">
+<div class="header-title" data-bookmark="7ef291be-d001-46d3-9dbb-d1c5bb1eaed7" contenteditable="false">
+<p>前   言</p>
+</div>
+<p style="text-indent: 2em;" data-bind="docRule">本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。</p>
+<p class="preface-orig-std-no" style="text-indent: 2em;" data-bind="orignStdNoTitle">本文件代替<span class="tag other" data-tag="orignStdNo" data-name="DB/CRRC J XXX《XXXX》" data-type="1" data-id="c311299b-76c6-481c-b46b-9d59ceb90d74">GB/T XXX</span>《<span class="tag other" data-tag="stdName" data-name="XXXX" data-type="3" data-id="675348b5-213d-41ca-8e9a-96d051a166df">XXXX</span>》，与<span class="tag other" data-tag="orignStdNo" data-name="DB/CRRC J XXX" data-type="1" data-id="22c5f892-3bd4-4d75-b789-c0674f8984f6">GB/T XXX</span>《<span class="tag other" data-tag="stdName" data-name="XXXX" data-type="1" data-id="53868f53-ec08-436d-8ced-e5cce1fbc095">XXXX</span>》相比，除结构调整和编辑性改动外，主要技术变化如下：</p>
+<div class="bullet" data-start="0" data-level="1" data-bind="orignStdNo" data-type="line" data-id="1ae1816a-f33a-4527-9be7-63676b3ed8eb" style="counter-reset: lower 0;">增加了XXXX（见X.X）；</div>
+<div class="bullet" data-level="1" data-bind="orignStdNo" data-type="line" data-id="1ae1816a-f33a-4527-9be7-63676b3ed8eb">更改了XXX（见X.X，<span class="tag other" data-tag="std-year" data-name="XXXX" data-type="5" data-id="9ba8066b-f83a-4e70-ac9f-e5f24926d022">XXXX</span>年版的X.X）；</div>
+<div class="bullet" data-bind="orignStdNo" data-level="1" data-type="line" data-id="1ae1816a-f33a-4527-9be7-63676b3ed8eb">删除了XXX（见<span class="tag other" data-tag="std-year" data-name="XXXX" data-type="1" data-id="0c6c61ac-2642-42ee-8ddb-def8a04cbe41">XXXX</span>年版的X.X）；</div>
+<div class="bullet" data-bind="orignStdNo" data-level="1" data-type="line" data-id="1ae1816a-f33a-4527-9be7-63676b3ed8eb">其他补充...。</div>
+<p style="text-indent: 2em;" data-bind="recordNumber">请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。</p>
+<p style="text-indent: 2em;">​本文件由 XXXXX 提出和起草，经公牛集团标准化委员会审定通过。</p>
+<p style="text-indent: 2em;">本文件由公牛集团标准化管理部门归口，由XXXXXX解释。</p>
+<p style="text-indent: 2em;">本文件起草部门：XXXXX 。</p>
+<p style="text-indent: 2em;">本文件主要起草人：XXXXX 。</p>
+<p style="text-indent: 2em;" data-bind="verdesc">本文件及其所代替或废止的文件的历次版本发布情况为：</p>
+<p style="text-indent: 2em;" data-bind="verdesc">——XXX。</p>
+<div class="locked">已锁定，不可编辑</div>
+</div>
+<div class="info-block struct fixed disabled" data-outlineid="ac8f9b15-f6bc-4d8d-8eed-264cc4114f09" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="3" data-no="Q/GN W0101007—2022" data-pagesize="A4" data-pagenum="1" style="padding: 25mm 25mm 20mm 20mm;">
+<div class="header-title chapter" data-id="13248d21-5808-486c-b84e-0e2a4a338876" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-contentid="6a2864fd-41d8-440a-9faf-7a3bc9f28574" contenteditable="false">
+<p data-bind="stdName">fsy另一台电脑域名测试合并12.07-01</p>
+</div>
+<div class="ol-list level0" data-bookmark="ac8f9b15-f6bc-4d8d-8eed-264cc4114f09" data-outlinetype="3" data-index="1" data-outlineid="ac8f9b15-f6bc-4d8d-8eed-264cc4114f09" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-contentid="d502ace0-8af4-4b0e-a736-7287984acb4e"><span contenteditable="false">范围</span>
+<p style="text-indent: 2em;">​范围这一要素用来界定文件的标准化对象和所覆盖的各个方面，并指明文件的适用界限。必要时，范围宜指出那些通常被认为文件可能覆盖，但实际上并不涉及的内容。分为部分的文件的各个部分，其范围只应界定各自部分的标准化对象和所覆盖的各个方面。</p>
+<p class="tag zhu" data-type="zhu">适用界限指文件(而不是标准化对象)适用的领域使用者。</p>
+<p style="text-indent: 2em;">该要素应设置为文件的第 章.如果确有必要，可以进一步细分为条。</p>
+<p style="text-indent: 2em;">范围的陈述应简洁，以便能作为内容提要使用。在范围中不应陈述可在引言中给出的背景信息。范围应表述为一系列事实的陈述，使用陈述型条款.不应包含要求、指示、推荐和允许型条款。</p>
+<p style="text-indent: 2em;">范围的陈述应使用下列适当的表述形式:</p>
+<p style="text-indent: 2em;"></p>
+</div>
+<div class="locked">已锁定，不可编辑</div>
+</div>
+<div class="info-block struct left fixed disabled" data-outlineid="b295f153-e787-4518-8ffd-325c4542c185" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="4" data-no="Q/GN W0101007—2022" data-pagesize="A4" data-pagenum="2" style="padding: 25mm 25mm 20mm 20mm;">
+<div class="ol-list level0" data-bookmark="b295f153-e787-4518-8ffd-325c4542c185" data-outlinetype="4" data-index="2" data-outlineid="b295f153-e787-4518-8ffd-325c4542c185" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-contentid="87c8afc7-cf09-49a7-9b00-2b343a97da53"><span contenteditable="false">规范性引用文件</span>
+<p style="text-indent: 2em;">下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件,仅注日期的版本适用于本文件。凡是不注日期的引用文件,其最新版本(包括所有的修改单)适用于本文件。</p>
+<p style="text-indent: 2em;"></p>
+</div>
+<div class="locked">已锁定，不可编辑</div>
+</div>
+<div class="info-block struct fixed disabled" data-outlineid="c0802f52-f647-40d5-a881-d58d21df92d0" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="5" data-no="Q/GN W0101007—2022" data-pagesize="A4" data-pagenum="3" style="padding: 25mm 25mm 20mm 20mm;">
+<div class="ol-list level0" data-bookmark="c0802f52-f647-40d5-a881-d58d21df92d0" data-outlinetype="5" data-index="3" data-outlineid="c0802f52-f647-40d5-a881-d58d21df92d0" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-contentid="aa88ada8-3b2c-48df-a112-2e65202b07f7"><span contenteditable="false">术语和定义</span>
+<p style="text-indent: 2em;">下列术语和定义适用于本文件。</p>
+<p style="text-indent: 2em;">本文件没有需要界定的术语和定义。（如无术语和定义，应说明）</p>
+</div>
+<div class="locked">已锁定，不可编辑</div>
+</div>
+<div class="info-block struct left fixed disabled" data-outlineid="40f7e702-24b8-4f81-8391-1727c059fced" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="6" data-no="Q/GN W0101007—2022" data-pagesize="A4" data-pagenum="4" style="padding: 25mm 25mm 20mm 20mm;">
+<div class="ol-list level0" data-bookmark="40f7e702-24b8-4f81-8391-1727c059fced" data-outlineid="40f7e702-24b8-4f81-8391-1727c059fced" data-contentid="1dd9c62f-e0fc-415f-b958-c842445978f2" data-outlinetype="6" data-index="4" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44">技术要素
+<p style="text-indent: 2em;">文本内容...</p>
+</div>
+<div class="locked">已锁定，不可编辑</div>
+</div>
+<div class="info-block struct fixed disabled" data-outlineid="90349047-3d57-498f-92b5-3bcb009a58e0" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="6" data-no="Q/GN W0101007—2022" data-pagesize="A4" data-pagenum="5">
+<div class="ol-list level0" data-bookmark="90349047-3d57-498f-92b5-3bcb009a58e0" data-outlineid="90349047-3d57-498f-92b5-3bcb009a58e0" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="6" data-index="5" data-contentid="b921d7bb-72ee-4c9b-a521-cf2052c0daa0">新章节啊啊
+<p style="text-indent: 2em;">是是是</p>
+<table border="2" style="width: 100%; border: 2px solid #333333;" data-id="7493a5a6-488a-4b4a-9de3-e5679a882500"><caption class="table-title" data-number="1">表标题</caption><colgroup><col style="width: 24.3981%;" /><col style="width: 24.3981%;" /><col style="width: 24.3981%;" /><col style="width: 26.4848%;" /></colgroup>
+<tbody>
+<tr>
+<td data-index="0" class="level0"></td>
+<td data-index="1" class="level0"></td>
+<td data-index="2" class="level0"></td>
+<td data-index="3" class="level0"></td>
+</tr>
+<tr>
+<td data-index="0" class="level0"></td>
+<td data-index="1" class="level0"></td>
+<td data-index="2" class="level0"></td>
+<td data-index="3" class="level0"></td>
+</tr>
+<tr>
+<td data-index="0" class="level0"></td>
+<td data-index="1" class="level0"></td>
+<td data-index="2" class="level0"></td>
+<td data-index="3" class="level0"></td>
+</tr>
+<tr>
+<td data-index="0" class="level0"></td>
+<td data-index="1" class="level0"></td>
+<td data-index="2" class="level0"></td>
+<td data-index="3" class="level0"></td>
+</tr>
+<tr>
+<td data-index="0" class="level0"></td>
+<td data-index="1" class="level0"></td>
+<td data-index="2" class="level0"></td>
+<td data-index="3" class="level0"></td>
+</tr>
+</tbody>
+</table>
+<p style="text-indent: 2em;">​</p>
+</div>
+<div class="locked">已锁定，不可编辑</div>
+</div>
+<div class="info-block struct left fixed disabled" data-outlineid="be1769a0-f2cc-45d3-b682-e09f35d8e604" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="6" data-no="Q/GN W0101007—2022" data-pagesize="A4" data-pagenum="6">
+<div class="ol-list level0" data-bookmark="be1769a0-f2cc-45d3-b682-e09f35d8e604" data-outlineid="be1769a0-f2cc-45d3-b682-e09f35d8e604" data-parentid="68e07351-ef55-4448-ac1a-f84a12906e44" data-outlinetype="6" data-index="6" data-contentid="1a3119f0-dbc2-4e59-9792-d1156ef6a869">新章节密码</div>
+<div class="locked">已锁定，不可编辑</div>
+</div>
+</div>

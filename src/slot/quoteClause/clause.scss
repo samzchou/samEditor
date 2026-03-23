@@ -1,0 +1,66 @@
+.quote-container{
+    height: 100%;
+    position: relative;
+    .lists{
+        height: calc(100% - 51px);
+        /* height: 100%; */
+        /* width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0; */
+        background-color: #FFF;
+        .search{
+            padding: 5px 10px;
+            border-bottom: 1px solid #EEE;
+        }
+        .datas{
+            overflow: auto;
+            height: calc(100% - 40px);
+        }
+    }
+    .pages{
+        padding: 10px;
+        border-top: 1px solid #e7e7e7;
+        display: flex;
+        justify-content: center;
+    }
+
+    .doc-info{
+        height: 100%;
+        width: 100%;
+        background-color: #FFF;
+        .tool-bar{
+            height: 30px;
+            border-bottom: 1px solid #EEE;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+        }
+        .main{
+            height: calc(100% - 30px);
+            display: flex;
+            .outline-list{
+                flex: 0 0 300px;
+            }
+            .content{
+                flex:1;
+                position: relative;
+                .to-top {
+                    position: absolute;
+                    right: 30px;
+                    bottom: 10px;
+                    background-color: #FFF;
+                    padding: 5px;
+                    border-radius: 3px;
+                    box-shadow: 2px 2px 2px 0 rgba(0,0,0,.3);
+                    cursor: pointer;
+                    >i{
+                        font-size:10pt;
+                        pointer-events: none;
+                    }
+                }
+            }
+        }
+    }
+
+}

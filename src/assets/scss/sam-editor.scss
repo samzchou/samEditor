@@ -1,0 +1,27 @@
+.page-container {
+    height: 100%;
+}
+
+.sam-scrollbar {
+    height: 100%;
+    &.ver {
+        .el-scrollbar__wrap {
+            overflow-x: hidden;
+        }
+
+        .is-horizontal {
+            display: none;
+        }
+    }
+    &.hor {
+        .el-scrollbar__wrap {
+            overflow-y: hidden;
+        }
+
+        .is-vertical {
+            display: none;
+        }
+    }
+}
+
+

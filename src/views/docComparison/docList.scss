@@ -1,0 +1,23 @@
+.quote-container{
+    height: 100%;
+    position: relative;
+    .lists{
+        height: 400px;
+        background-color: #FFF;
+        .search{
+            padding: 5px 10px;
+            border-bottom: 1px solid #EEE;
+        }
+        .datas{
+            overflow: auto;
+            height: calc(100% - 40px);
+            ::v-deep .checked-row>td{
+                color: #33bd5e;
+            }
+        }
+    }
+    .pages{
+        padding: 10px;
+        border-top: 1px solid #e7e7e7;
+    }
+}

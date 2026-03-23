@@ -1,0 +1,142 @@
+.doc-ai-cmp{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .content {
+        flex:1;
+        overflow: hidden;
+        .loading-outline{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            ::v-deep .el-progress{
+                .el-progress__text{
+                    white-space: pre-wrap;
+                }
+            }
+        }
+        .sample-text{
+            padding:20px;
+            text-align: center;
+            font-size: 16px;
+            color:#ff8f00;
+        }
+        .ai-list{
+            padding: 15px;
+            >ul{
+                overflow: hidden;
+                >li{
+                    .question{
+                        display: flex;
+                        justify-content: flex-end;
+                        margin: 10px 0;
+                        >div{
+                            padding: 10px;
+                            background-color: rgba(33, 89, 169, .2);
+                            border-radius: 8px;
+                        }
+                    }
+                    .answer{
+                        display: flex;
+                        margin: 10px 0;
+                        >div {
+                            &:first-child{
+                                margin-right: 10px;
+                                >i{
+                                    font-size: 2em;
+                                }
+                            }
+                            &:last-child {
+                                padding: 10px;
+                                background-color: #e4f2f9;
+                                flex: 1;
+                                border-radius: 8px;
+                                ::v-deep .ai-result{
+                                    >p{
+                                        line-height: 2;
+                                        // padding-left:1em;
+                                        padding: 5px 10px 5px;
+                                        &.str-title{
+                                            padding-left:0;
+                                            border-bottom:1px solid rgba(0,0,0,.04);
+                                            font-size:14px;
+                                        }
+                                    }
+                                }
+                                .btns{
+                                    padding: 5px 0;
+                                    border-top: 1px solid rgba(0, 0, 0, .04);
+                                    margin-top: 8px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-end;
+                                    >span{
+                                        margin: 0 3px;
+                                        cursor: pointer;
+                                        color: rgab(0,0,0,.5);
+                                        &:hover{
+                                            color:#000;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .input{
+        background-color: #e2f0ff;
+        padding: 10px;
+        .tool-btns{
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom:12px;
+            >div{
+                display: flex;
+                align-items: center;
+                >*{
+                    margin: 0 3px;
+                }
+                ::v-deep button{
+                    padding: 0px !important;
+                    // background-color: #FFF;
+                    // border-radius: 3px;
+                    >i{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .submits{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            ::v-deep .el-textarea{
+                flex:1;
+                >textarea{
+                    background-color: transparent;
+                    border: 0;
+                    font-size: 14px;
+                }
+            }
+            .submit-btn {
+                padding: 0 15px 0;
+                cursor: pointer;
+                >i{
+                    font-size: 2.5em;
+                }
+                &.disabled{
+                    opacity: 0.3;
+                    pointer-events: none;
+                    cursor: not-allowed;
+                }
+            }
+        }
+
+    }
+}
