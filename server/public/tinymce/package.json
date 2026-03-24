@@ -1,0 +1,27 @@
+{
+  "name": "tinymce",
+  "version": "5.8.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinymce/tinymce-dist.git"
+  },
+  "description": "Web based JavaScript HTML WYSIWYG editor control.",
+  "author": "Tiny Technologies, Inc",
+  "main": "tinymce.js",
+  "types": "tinymce.d.ts",
+  "license": "LGPL-2.1",
+  "keywords": [
+    "editor",
+    "wysiwyg",
+    "tinymce",
+    "richtext",
+    "javascript",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/tinymce/tinymce/issues"
+  },
+  "__npminstall_done": "Sat Jul 31 2021 14:16:02 GMT+0800 (中国标准时间)",
+  "_from": "tinymce@5.8.2",
+  "_resolved": "https://registry.nlark.com/tinymce/download/tinymce-5.8.2.tgz?cache=0&sync_timestamp=1624431309760&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftinymce%2Fdownload%2Ftinymce-5.8.2.tgz"
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Handwriting Board</title>
+    <style>
+        #drawingCanvas {
+            border: 1px solid #000;
+            background-color: #fff;
+            cursor: crosshair;
+        }
+
+        #controls {
+            margin-top: 10px;
+        }
+    </style>
+    <script src="dev-lib/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+    <canvas id="drawingCanvas" width="800" height="600"></canvas>
+    <div id="controls">
+        <button id="exportBtn">Export Image</button>
+    </div>
+
+    <script>
+        $(function () {
+            const canvas = $('#drawingCanvas')[0];
+            const ctx = canvas.getContext('2d');
+
+            let drawing = false;
+
+            // Start drawing
+            $('#drawingCanvas').on('mousedown', function (e) {
+                drawing = true;
+                ctx.beginPath();
+                ctx.moveTo(e.offsetX, e.offsetY);
+            });
+
+            // End drawing
+            $('#drawingCanvas').on('mouseup', function () {
+                drawing = false;
+                ctx.closePath();
+            });
+
+            // Draw on the canvas
+            $('#drawingCanvas').on('mousemove', function (e) {
+                if (!drawing) return;
+
+                ctx.lineWidth = 5;
+                ctx.lineCap = 'round';
+                ctx.strokeStyle = 'black';
+
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.stroke();
+            });
+
+            // Export canvas content as an image
+            $('#exportBtn').on('click', function () {
+                const dataURL = canvas.toDataURL('image/png');
+
+                // Create a link element and simulate a click to download the image
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = 'drawing.png';
+                link.click();
+            });
+        });
+    </script>
+</body>
+
+</html>

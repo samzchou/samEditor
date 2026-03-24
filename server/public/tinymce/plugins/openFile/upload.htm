@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#upload_dlg.title}</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/upload.js"></script>
+</head>
+<body>
+
+<form onsubmit="UploadDialog.insert();return false;" action="#">	
+    <table border="0" cellpadding="2" cellspacing="0">
+          <tr>
+            <td nowrap="nowrap"><label for="src">
+                文件路径</label></td>
+            <td><table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><input id="src" name="src" type="text" value="" style="width: 200px"></td>
+                  <td >&nbsp;</td>
+                </tr>
+              </table></td>
+          </tr>
+		
+          <tr>
+            <td nowrap="nowrap">从本地上传</td>
+            <td><script>document.write('<iframe scrolling="no" width="200" height="25" frameborder="0" src="../../fileUpload.jsp"></iframe>');</script><input type='hidden' id='filename' name='filename' value='' /></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap"></td>
+            <td></td>
+          </tr>
+          
+     </table>
+	<div class="mceActionPanel">
+		<input type="button" id="insert" name="insert" value="{#insert}" onclick="UploadDialog.insert();" />
+		<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+	</div>
+</form>
+
+</body>
+</html>

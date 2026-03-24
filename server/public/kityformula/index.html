@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>公式编辑器</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="renderer" content="webkit" />
+	<script src="dev-lib/jquery-1.11.0.min.js"></script>
+	<script src="dev-lib/kitygraph.all.js"></script>
+	<script src="dev-lib/kity-formula-render.all.js"></script>
+	<script src="dev-lib/kity-formula-parser.all.min.js"></script>
+	<script src="dev-lib/dev-define.js"></script>
+	<script src="dev-lib/exports.js"></script>
+	<script src="dev-lib/start.js"></script>
+	<script src="dev-lib/dev-start.js"></script>
+	<script>
+		var isReg = false;
+		var currWind = null;
+		var sendId = undefined;
+		jQuery(function ($) {
+			$('#tips').html(
+				'<div id="loading"><p>Loading...</p></div>'
+			)
+			var factory = kf.EditorFactory.create($('#kfEditorContainer')[0], {
+				render: {
+					fontsize: 40
+				},
+				resource: {
+					path: 'resource/'
+				}
+			})
+
+			factory.ready(function (KFEditor) {
+				// this指向KFEditor
+				$('#tips').remove();
+				this.execCommand('render', '\\placeholder');
+				this.execCommand('focus');
+				window.kfe = this;
+				// 向父窗口发送消息
+				sendPost({ ready: true });
+			});
+
+		});
+
+		function sendPost(data) {
+			const parentWindow = window.parent;
+			data.id = sendId;
+			if (parentWindow) {
+				window.parent.postMessage(data, '*');
+			}
+		}
+
+		function setlatex(latex) {
+			try {
+				window.kfe.execCommand("render", latex || "\\placeholder");
+				window.kfe.execCommand("focus");
+			} catch (e) {
+				console.log('setlatex error', e);
+			}
+		}
+		window.addEventListener('message', function (event) {
+			if (event.data.id) {
+				sendId = event.data.id;
+			}
+			if (event.data.getSource) {
+				sendPost({ source: window.kfe.execCommand('get.source') });
+			} else if (event.data.setSource) {
+				setlatex(event.data.setSource);
+			}
+		});
+	</script>
+	<link rel="stylesheet" href="assets/styles/page.css" />
+	<link rel="stylesheet" href="assets/styles/base.css" />
+	<link rel="stylesheet" href="assets/styles/ui.css" />
+	<link rel="stylesheet" href="assets/styles/scrollbar.css" />
+</head>
+
+<body>
+	<div id="kfEditorContainer" class="kf-editor" style="width: 100%; height: 100%;"></div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+node_modules
+
+# 忽略 public 目录下的所有文件
+public/*
+public/files/2025/*
+public/files/2026/*
+
+# 但保留目录结构
+!public/*/
+!public/*/.gitkeep
+
+# 忽略上传的文件
+public/images/*
+public/css/*
+public/js/*
+public/fonts/*
+public/docs/*
+
+# 保留目录
+!public/images/.gitkeep
+!public/css/.gitkeep
+!public/js/.gitkeep
+!public/fonts/.gitkeep
+!public/docs/.gitkeep 

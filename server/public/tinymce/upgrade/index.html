@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>编辑器版本说明</title>
+		<script>
+			function getQueryString() {
+				var url = decodeURI(location.search); //获取url中"?"符后的字串
+				if (url.indexOf("?") != -1) {
+					var strArr = url.substr(1).split('&');
+					for(var i=0; i<strArr.length; i++) {
+						var str = strArr[i].split("=");
+						if (str.length === 2) {
+							if (str[0] === 'version') {
+								document.getElementById('version-str').textContent = str[1];
+							}
+						}
+					}
+
+				}
+			}
+			window.onload = function () {
+				getQueryString()
+			}
+		</script>
+	</head>
+	<body>
+		<div class="ver-container">
+			<p>标准通最新版本：<span id="version-str">1.0.10</span></p>
+			<p>在线升级仅适用于离线编辑器</p>
+		</div>
+	</body>
+</html>

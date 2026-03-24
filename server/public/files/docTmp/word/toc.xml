@@ -1,0 +1,22 @@
+{@list}
+<w:p>
+	<w:r>
+		<w:t></w:t>
+		<w:fldChar w:fldCharType="end"/>
+	</w:r>
+</w:p>
+<w:p page-title="目录页">
+	<w:pPr>
+		<w:spacing w:line="270" w:lineRule="auto"/>
+		<w:ind w:leftChars="0"/>
+		<w:sectPr>
+			<w:headerReference r:id="{@header}" w:type="{@wType}"/>
+			<w:footerReference r:id="{@footer}" w:type="{@wType}"/>
+			<w:pgSz w:h="{@pageHeight}" w:w="{@pageWidth}"/>
+			<w:pgMar w:bottom="{@pageBottom}" w:footer="{@pageFooter}" w:gutter="0" w:header="{@pageHeader}" w:left="{@pageLeft}" w:right="{@pageRight}" w:top="{@pageTop}"/>
+			{@footerType}
+			<w:cols w:num="1" w:space="720"/>
+			<w:docGrid w:charSpace="0" w:linePitch="312" w:type="lines"/>
+		</w:sectPr>
+	</w:pPr>
+</w:p>

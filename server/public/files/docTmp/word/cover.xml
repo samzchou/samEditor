@@ -1,0 +1,1761 @@
+<w:p>
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251659264" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>-6985</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>-32385</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="3730625" cy="580390"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="1" name="文本框 ICS/CSS/备案号" title="ICS/CSS/备案号"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="2338705" y="980440"/>
+											<a:ext cx="3730625" cy="580390"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="dk1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p>
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd w:val="0"/>
+													<w:snapToGrid w:val="0"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:hint="default"/>
+														<w:lang w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="default"/>
+														<w:sz w:val="21"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t>{@icsTag}</w:t>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="eastAsia"/>
+													</w:rPr>
+													<w:tab/>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="21"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t>{@icsNumber}</w:t>
+												</w:r>
+												<w:r>
+													<w:br w:type="textWrapping"/>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="default"/>
+														<w:sz w:val="21"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t>{@ccsTag}</w:t>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="eastAsia"/>
+													</w:rPr>
+													<w:tab/>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="21"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t>{@ccsNumber}</w:t>
+												</w:r>
+												<w:r>
+													<w:br w:type="textWrapping"/>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="21"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@recordNumber}</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="t" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="0" numCol="1" rIns="36000" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape filled="f" stroked="f" id="文本框 ICS/CSS/备案号" style="position:absolute;left:0pt;margin-left:-0.55pt;margin-top:-2.55pt;height:45.7pt;width:293.75pt;z-index:251659264;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox>
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:keepNext w:val="0"/>
+										<w:keepLines w:val="0"/>
+										<w:pageBreakBefore w:val="0"/>
+										<w:widowControl w:val="0"/>
+										<w:kinsoku/>
+										<w:wordWrap/>
+										<w:overflowPunct/>
+										<w:topLinePunct w:val="0"/>
+										<w:bidi w:val="0"/>
+										<w:adjustRightInd w:val="0"/>
+										<w:snapToGrid w:val="0"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:hint="default"/>
+											<w:lang w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r name="ICS-TAG">
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="default"/>
+											<w:sz w:val="21"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t>{@icsTag}</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="eastAsia"/>
+										</w:rPr>
+										<w:tab/>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="21"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t>{@icsNumber}</w:t>
+									</w:r>
+									<w:r>
+										<w:br w:type="textWrapping"/>
+									</w:r>
+									<w:r name="CCS-TAG">
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="default"/>
+											<w:sz w:val="21"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t>{@ccsTag}</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:hint="eastAsia"/>
+										</w:rPr>
+										<w:tab/>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="21"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t>{@ccsNumber}</w:t>
+									</w:r>
+									<w:r>
+										<w:br w:type="textWrapping"/>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="21"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t>{@recordNumber}</w:t>
+									</w:r>
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251661312" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>1214755</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>52070</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="4523740" cy="882650"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="2" name="文本框 标准代码" title="标准代码"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="4523740" cy="882650"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="dk1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p>
+												<w:pPr>
+													<w:jc w:val="right"/>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsiaTheme="minorEastAsia" w:hAnsi="Times New Roman" w:hint="default"/>
+														<w:sz w:val="84"/>
+														<w:szCs w:val="84"/>
+													</w:rPr>
+												</w:pPr>
+												{@stdSign}
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>
+														<w:b/>
+														<w:bCs/>
+														<w:sz w:val="112"/>
+														<w:szCs w:val="112"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@stdSignText}</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="t" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="0" numCol="1" rIns="0" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 标准代码" filled="f" troked="f" style="position:absolute;left:0pt;margin-left:95.65pt;margin-top:4.1pt;height:69.5pt;width:356pt;z-index:251660288;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="0mm,0mm,0mm,0mm">
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:jc w:val="right"/>
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsiaTheme="minorEastAsia" w:hAnsi="Times New Roman" w:hint="default"/>
+											<w:sz w:val="84"/>
+											<w:szCs w:val="84"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									{@stdSign}
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman"/>
+											<w:b/>
+											<w:bCs/>
+											<w:sz w:val="112"/>
+											<w:szCs w:val="112"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@stdSignText}</w:t>
+									</w:r>
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+	
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251661312" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>-71120</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>963295</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="6216650" cy="658495"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="3" name="文本框 标准抬头" title="标准抬头"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="6216650" cy="658495"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="dk1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p>
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd w:val="0"/>
+													<w:snapToGrid w:val="0"/>
+													<w:jc w:val="distribute"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:hint="default"/>
+														<w:lang w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												{@stdTitle}
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="ctr" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="0" numCol="1" rIns="0" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 抬头" filled="f" stroked="f" style="position:absolute;left:0pt;margin-left:-5.6pt;margin-top:75.85pt;height:51.85pt;width:489.5pt;z-index:251661312;v-text-anchor:middle;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="0mm,0mm,0mm,0mm">
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:keepNext w:val="0"/>
+										<w:keepLines w:val="0"/>
+										<w:pageBreakBefore w:val="0"/>
+										<w:widowControl w:val="0"/>
+										<w:kinsoku/>
+										<w:wordWrap/>
+										<w:overflowPunct/>
+										<w:topLinePunct w:val="0"/>
+										<w:bidi w:val="0"/>
+										<w:adjustRightInd w:val="0"/>
+										<w:snapToGrid w:val="0"/>
+										<w:jc w:val="distribute"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:hint="default"/>
+											<w:lang w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									{@stdTitle}
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251661312" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>-3175</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>1720850</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="5975985" cy="278130"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="4" name="文本框 标准编号" title="标准编号"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="5975985" cy="278130"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p>
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd w:val="0"/>
+													<w:snapToGrid w:val="0"/>
+													<w:b w:val="0"/>
+													<w:bCs w:val="0"/>
+													<w:jc w:val="right"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="28"/>
+														<w:szCs w:val="28"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="28"/>
+														<w:szCs w:val="28"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@stdNo}</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="ctr" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="36000" numCol="1" rIns="36000" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 标准编号" filled="f" style="position:absolute;left:0pt;margin-left:-0.25pt;margin-top:135.5pt;height:21.9pt;width:470.55pt;z-index:251661312;v-text-anchor:middle;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="1mm,0mm,1mm,0mm">
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:keepNext w:val="0"/>
+										<w:keepLines w:val="0"/>
+										<w:pageBreakBefore w:val="0"/>
+										<w:widowControl w:val="0"/>
+										<w:kinsoku/>
+										<w:wordWrap/>
+										<w:overflowPunct/>
+										<w:topLinePunct w:val="0"/>
+										<w:bidi w:val="0"/>
+										<w:adjustRightInd w:val="0"/>
+										<w:snapToGrid w:val="0"/>
+										<w:jc w:val="right"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="28"/>
+											<w:szCs w:val="28"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="28"/>
+											<w:szCs w:val="28"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@stdNo}</w:t>
+									</w:r>
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251663360" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>1905</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>1955800</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="6007735" cy="278130"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="5" name="文本框 代替标准编号" title="代替标准编号"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="6007735" cy="278130"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p>
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd w:val="0"/>
+													<w:snapToGrid w:val="0"/>
+													<w:jc w:val="right"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:hint="default"/>
+														<w:lang w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:sz w:val="21"/>
+														<w:szCs w:val="21"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@origStdNo}</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="ctr" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="36000" numCol="1" rIns="36000" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 代替标准编号" filled="f" stroked="f" style="position:absolute;left:0pt;margin-left:0.15pt;margin-top:154pt;height:21.9pt;width:473.05pt;z-index:251663360;v-text-anchor:middle;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="1mm,0mm,1mm,0mm">
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:keepNext w:val="0"/>
+										<w:keepLines w:val="0"/>
+										<w:pageBreakBefore w:val="0"/>
+										<w:widowControl w:val="0"/>
+										<w:kinsoku/>
+										<w:wordWrap/>
+										<w:overflowPunct/>
+										<w:topLinePunct w:val="0"/>
+										<w:bidi w:val="0"/>
+										<w:adjustRightInd w:val="0"/>
+										<w:snapToGrid w:val="0"/>
+										<w:jc w:val="right"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:hint="default"/>
+											<w:lang w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:b w:val="0"/>
+											<w:bCs w:val="0"/>
+											<w:sz w:val="24"/>
+											<w:szCs w:val="24"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@origStdNo}</w:t>
+									</w:r>
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251668480" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>1270</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>2345055</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="6124575" cy="0"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="10" name="上横线"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvCnPr/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="979170" y="2911475"/>
+											<a:ext cx="6124575" cy="0"/>
+										</a:xfrm>
+										<a:prstGeom prst="line">
+											<a:avLst/>
+										</a:prstGeom>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="1">
+											<a:schemeClr val="dk1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="dk1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="dk1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="tx1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:bodyPr/>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:line id="文本框 上横线" filled="f" stroked="t" style="position:absolute;left:0pt;margin-left:0.1pt;margin-top:184.65pt;height:0pt;width:482.25pt;z-index:251668480;mso-width-relative:page;mso-height-relative:page;">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke color="#000000 [3200]" joinstyle="miter" miterlimit="8" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+					</v:line>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251664384" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>-6985</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>3709035</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="6137275" cy="4199255"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="6" name="文本框 标准名称" title="标准名称"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="6137275" cy="4199255"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="dk1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p name="中文标准名称">
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd w:val="0"/>
+													<w:snapToGrid w:val="0"/>
+													<w:spacing w:line="680" w:lineRule="exact"/>
+													<w:jc w:val="center"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="52"/>
+														<w:szCs w:val="52"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												{@stdName}
+											</w:p>
+											<w:p name="英文标准名称">
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd w:val="0"/>
+													<w:snapToGrid w:val="0"/>
+													<w:spacing w:before="370" w:line="400" w:lineRule="exact"/>
+													<w:jc w:val="center"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman" w:hint="default"/>
+														<w:sz w:val="28"/>
+														<w:szCs w:val="28"/>
+													</w:rPr>
+												</w:pPr>
+												{@stdNameEn}
+											</w:p>
+											<w:p name="与国际程度一致性标识">
+												<w:pPr>
+													<w:spacing w:before="640" w:line="400" w:lineRule="exact"/>
+													<w:jc w:val="center"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman" w:hint="default"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:sz w:val="28"/>
+														<w:szCs w:val="28"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:hAnsi="Times New Roman" w:hint="default"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:sz w:val="28"/>
+														<w:szCs w:val="28"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@consistentSign}</w:t>
+												</w:r>
+											</w:p>
+
+											<w:p name="文档稿次与提交时间">
+												<w:pPr>
+													<w:spacing w:before="500" w:after="240" w:line="400" w:lineRule="exact"/>
+													<w:jc w:val="center"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="default"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:sz w:val="24"/>
+														<w:szCs w:val="24"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:sz w:val="24"/>
+														<w:szCs w:val="24"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@stdEdition}</w:t>
+												</w:r>
+												<w:r>
+													<w:br w:type="textWrapping"/>
+												</w:r>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:sz w:val="24"/>
+														<w:szCs w:val="24"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@submitDate}</w:t>
+												</w:r>
+											</w:p>
+											<w:p name="相关专利与支持性文件">
+												<w:pPr>
+													<w:spacing w:before="567"/>
+													<w:jc w:val="center"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="default"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:sz w:val="24"/>
+														<w:szCs w:val="24"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+														<w:b/>
+														<w:bCs/>
+														<w:sz w:val="24"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@patentFile}</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="t" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="36000" numCol="1" rIns="36000" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 标准名称" filled="f" stroked="f" style="position:absolute;left:0pt;margin-left:-0.55pt;margin-top:292.05pt;height:330.65pt;width:483.25pt;z-index:251664384;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="1mm,0mm,1mm,0mm">
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:keepNext w:val="0"/>
+										<w:keepLines w:val="0"/>
+										<w:pageBreakBefore w:val="0"/>
+										<w:widowControl w:val="0"/>
+										<w:kinsoku/>
+										<w:wordWrap/>
+										<w:overflowPunct/>
+										<w:topLinePunct w:val="0"/>
+										<w:bidi w:val="0"/>
+										<w:adjustRightInd w:val="0"/>
+										<w:snapToGrid w:val="0"/>
+										<w:spacing w:line="680" w:lineRule="exact"/>
+										<w:jc w:val="center"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="52"/>
+											<w:szCs w:val="52"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									{@stdName}
+								</w:p>
+								<w:p>
+									<w:pPr>
+										<w:keepNext w:val="0"/>
+										<w:keepLines w:val="0"/>
+										<w:pageBreakBefore w:val="0"/>
+										<w:widowControl w:val="0"/>
+										<w:kinsoku/>
+										<w:wordWrap/>
+										<w:overflowPunct/>
+										<w:topLinePunct w:val="0"/>
+										<w:bidi w:val="0"/>
+										<w:adjustRightInd w:val="0"/>
+										<w:snapToGrid w:val="0"/>
+										<w:spacing w:before="370" w:line="400" w:lineRule="exact"/>
+										<w:jc w:val="center"/>
+										<w:textAlignment w:val="auto"/>
+									</w:pPr>
+									{@stdNameEn}
+								</w:p>
+								<w:p>
+									<w:pPr>
+										<w:spacing w:before="440" w:line="400" w:lineRule="exact"/>
+										<w:jc w:val="center"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>
+											<w:b w:val="0"/>
+											<w:bCs w:val="0"/>
+											<w:sz w:val="28"/>
+											<w:szCs w:val="28"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="Times New Roman" w:cs="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>
+											<w:b w:val="0"/>
+											<w:bCs w:val="0"/>
+											<w:sz w:val="28"/>
+											<w:szCs w:val="28"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@consistentSign}</w:t>
+									</w:r>
+								</w:p>
+								<w:p>
+									<w:pPr>
+										<w:spacing w:after="240" w:before="500" w:line="400" w:lineRule="exact"/>
+										<w:jc w:val="center"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:hint="default"/>
+											<w:lang w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+											<w:b w:val="0"/>
+											<w:bCs w:val="0"/>
+											<w:sz w:val="24"/>
+											<w:szCs w:val="24"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@stdEdition}</w:t>
+									</w:r>
+									<w:r>
+										<w:br w:type="textWrapping"/>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+											<w:b w:val="0"/>
+											<w:bCs w:val="0"/>
+											<w:sz w:val="24"/>
+											<w:szCs w:val="24"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@submitDate}</w:t>
+									</w:r>
+								</w:p>
+								<w:p>
+									<w:pPr>
+										<w:spacing w:before="567"/>
+										<w:jc w:val="center"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="default"/>
+											<w:b w:val="0"/>
+											<w:bCs w:val="0"/>
+											<w:sz w:val="21"/>
+											<w:szCs w:val="21"/>
+											<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="宋体" w:cs="宋体" w:eastAsia="宋体" w:hAnsi="宋体" w:hint="eastAsia"/>
+											<w:b/>
+											<w:bCs/>
+											<w:sz w:val="24"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@patentFile}</w:t>
+									</w:r>
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251669504" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>-7620</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>8877935</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="6136005" cy="0"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="11" name="下横线"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvCnPr/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="6136005" cy="0"/>
+										</a:xfrm>
+										<a:prstGeom prst="line">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:ln cmpd="sng" w="12700">
+											<a:solidFill>
+												<a:schemeClr val="tx1"/>
+											</a:solidFill>
+											<a:prstDash val="solid"/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="1">
+											<a:schemeClr val="dk1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="dk1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="dk1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="tx1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:bodyPr/>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:line id="文本框 下横线" filled="f" stroked="t" style="position:absolute;left:0pt;margin-left:-0.6pt;margin-top:699.05pt;height:0pt;width:483.15pt;z-index:251669504;mso-width-relative:page;mso-height-relative:page;">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke color="#000000 [3200]" joinstyle="miter" miterlimit="8" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+					</v:line>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251665408" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>-28575</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>8566150</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="2613660" cy="360045"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="7" name="文本框 发布日期" title="发布日期"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="2613660" cy="360045"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="dk1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p>
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd/>
+													<w:snapToGrid w:val="0"/>
+													<w:spacing w:line="240" w:lineRule="auto"/>
+													<w:jc w:val="left"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:hint="default"/>
+														<w:lang w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="28"/>
+														<w:szCs w:val="28"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@stdPublishDate}</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="ctr" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="36000" numCol="1" rIns="36000" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 发布日期" filled="f" stroked="f" style="position:absolute;left:0pt;margin-left:-2.25pt;margin-top:674.5pt;height:28.35pt;width:205.8pt;z-index:251665408;v-text-anchor:middle;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="1mm,0mm,1mm,0mm">
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:keepNext w:val="0"/>
+										<w:keepLines w:val="0"/>
+										<w:pageBreakBefore w:val="0"/>
+										<w:widowControl w:val="0"/>
+										<w:kinsoku/>
+										<w:wordWrap/>
+										<w:overflowPunct/>
+										<w:topLinePunct w:val="0"/>
+										<w:bidi w:val="0"/>
+										<w:adjustRightInd/>
+										<w:snapToGrid w:val="0"/>
+										<w:spacing w:line="240" w:lineRule="auto"/>
+										<w:jc w:val="left"/>
+										<w:textAlignment w:val="auto"/>
+										<w:rPr>
+											<w:rFonts w:hint="default"/>
+											<w:lang w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="28"/>
+											<w:szCs w:val="28"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@stdPublishDate}</w:t>
+									</w:r>
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251666432" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>3553460</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>8566150</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="2613660" cy="360045"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="8" name="文本框 实施日期" title="实施日期"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="2613660" cy="360045"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="dk1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:p>
+												<w:pPr>
+													<w:jc w:val="right"/>
+													<w:rPr>
+														<w:rFonts w:hint="default"/>
+														<w:lang w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:sz w:val="28"/>
+													</w:rPr>
+													<w:t xml:space="preserve">{@stdPerformDate}</w:t>
+												</w:r>
+											</w:p>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="ctr" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="36000" numCol="1" rIns="36000" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 实施日期" filled="f" stroked="f" style="position:absolute;left:0pt;margin-left:279.8pt;margin-top:674.5pt;height:28.35pt;width:205.8pt;z-index:251666432;v-text-anchor:middle;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="1mm,0mm,1mm,0mm">
+							<w:txbxContent>
+								<w:p>
+									<w:pPr>
+										<w:jc w:val="right"/>
+										<w:rPr>
+											<w:rFonts w:hint="default"/>
+											<w:lang w:val="en-US"/>
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+											<w:sz w:val="28"/>
+										</w:rPr>
+										<w:t xml:space="preserve">{@stdPerformDate}</w:t>
+									</w:r>
+								</w:p>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+
+	<w:r>
+		<mc:AlternateContent>
+			<mc:Choice Requires="wps">
+				<w:drawing>
+					<wp:anchor allowOverlap="1" behindDoc="0" distB="0" distL="114300" distR="114300" distT="0" layoutInCell="1" locked="0" relativeHeight="251667456" simplePos="0">
+						<wp:simplePos x="0" y="0"/>
+						<wp:positionH relativeFrom="column">
+							<wp:posOffset>1905</wp:posOffset>
+						</wp:positionH>
+						<wp:positionV relativeFrom="paragraph">
+							<wp:posOffset>9217025</wp:posOffset>
+						</wp:positionV>
+						<wp:extent cx="6129020" cy="842010"/>
+						<wp:effectExtent b="0" l="0" r="0" t="0"/>
+						<wp:wrapNone/>
+						<wp:docPr id="9" name="文本框 发布单位" title="发布单位"/>
+						<wp:cNvGraphicFramePr/>
+						<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+							<a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+								<wps:wsp>
+									<wps:cNvSpPr txBox="1"/>
+									<wps:spPr>
+										<a:xfrm>
+											<a:off x="0" y="0"/>
+											<a:ext cx="6129020" cy="842010"/>
+										</a:xfrm>
+										<a:prstGeom prst="rect">
+											<a:avLst/>
+										</a:prstGeom>
+										<a:noFill/>
+										<a:ln w="6350">
+											<a:noFill/>
+										</a:ln>
+									</wps:spPr>
+									<wps:style>
+										<a:lnRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:lnRef>
+										<a:fillRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:fillRef>
+										<a:effectRef idx="0">
+											<a:schemeClr val="accent1"/>
+										</a:effectRef>
+										<a:fontRef idx="minor">
+											<a:schemeClr val="dk1"/>
+										</a:fontRef>
+									</wps:style>
+									<wps:txbx>
+										<w:txbxContent>
+											<w:tbl>
+												<w:tblPr>
+													<w:tblStyle w:val="14"/>
+													<w:tblW w:type="auto" w:w="0"/>
+													<w:jc w:val="center"/>
+													<w:tblLayout w:type="autofit"/>
+													<w:tblCellMar>
+														<w:top w:type="dxa" w:w="85"/>
+														<w:left w:type="dxa" w:w="0"/>
+														<w:bottom w:type="dxa" w:w="85"/>
+														<w:right w:type="dxa" w:w="108"/>
+													</w:tblCellMar>
+												</w:tblPr>
+												<w:tblGrid>
+													<w:gridCol w:w="3382"/>
+													<w:gridCol w:w="1410"/>
+												</w:tblGrid>
+												<w:tr>
+													<w:trPr>
+														<w:jc w:val="center"/>
+													</w:trPr>
+													<w:tc>
+														<w:tcPr>
+															<w:tcW w:type="auto" w:w="0"/>
+															<w:tcBorders>
+																<w:tl2br w:val="nil"/>
+																<w:tr2bl w:val="nil"/>
+															</w:tcBorders>
+															<w:tcMar>
+																<w:top w:type="dxa" w:w="85"/>
+																<w:left w:type="dxa" w:w="0"/>
+																<w:bottom w:type="dxa" w:w="85"/>
+																<w:right w:type="dxa" w:w="0"/>
+															</w:tcMar>
+															<w:vAlign w:val="center"/>
+														</w:tcPr>
+														<w:p>
+															<w:pPr>
+																<w:keepNext w:val="0"/>
+																<w:keepLines w:val="0"/>
+																<w:pageBreakBefore w:val="0"/>
+																<w:widowControl w:val="0"/>
+																<w:kinsoku/>
+																<w:wordWrap/>
+																<w:overflowPunct/>
+																<w:topLinePunct w:val="0"/>
+																<w:bidi w:val="0"/>
+																<w:adjustRightInd/>
+																<w:snapToGrid w:val="0"/>
+																<w:spacing w:line="200" w:lineRule="auto"/>
+																<w:jc w:val="distribute"/>
+																<w:textAlignment w:val="auto"/>
+																<w:rPr>
+																	<w:rFonts w:hint="default"/>
+																	<w:spacing w:val="34"/>
+																	<w:w w:val="75"/>
+																	<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+																</w:rPr>
+															</w:pPr>
+															{@releaseDepartment}
+														</w:p>
+													</w:tc>
+													<w:tc>
+														<w:tcPr>
+															<w:tcW w:type="auto" w:w="0"/>
+															<w:tcBorders>
+																<w:tl2br w:val="nil"/>
+																<w:tr2bl w:val="nil"/>
+															</w:tcBorders>
+															<w:tcMar>
+																<w:top w:type="dxa" w:w="85"/>
+																<w:left w:type="dxa" w:w="510"/>
+																<w:bottom w:type="dxa" w:w="85"/>
+																<w:right w:type="dxa" w:w="0"/>
+															</w:tcMar>
+															<w:vAlign w:val="center"/>
+														</w:tcPr>
+														<w:p>
+															<w:pPr>
+																<w:spacing w:line="240" w:lineRule="auto"/>
+																<w:jc w:val="center"/>
+															</w:pPr>
+															<w:r>
+																<w:rPr>
+																	<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+																	<w:b w:val="0"/>
+																	<w:bCs w:val="0"/>
+																	<w:spacing w:val="85"/>
+																	<w:sz w:val="28"/>
+																	<w:szCs w:val="28"/>
+																	<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+																</w:rPr>
+																<w:t>发布</w:t>
+															</w:r>
+														</w:p>
+													</w:tc>
+												</w:tr>
+											</w:tbl>
+											<w:p/>
+										</w:txbxContent>
+									</wps:txbx>
+									<wps:bodyPr anchor="ctr" anchorCtr="0" bIns="0" compatLnSpc="1" forceAA="0" fromWordArt="0" horzOverflow="overflow" lIns="36000" numCol="1" rIns="36000" rot="0" rtlCol="0" spcCol="0" spcFirstLastPara="0" tIns="0" vert="horz" vertOverflow="overflow" wrap="square">
+										<a:noAutofit/>
+									</wps:bodyPr>
+								</wps:wsp>
+							</a:graphicData>
+						</a:graphic>
+					</wp:anchor>
+				</w:drawing>
+			</mc:Choice>
+			<mc:Fallback>
+				<w:pict>
+					<v:shape id="文本框 发布单位" filled="f" stroked="f" style="position:absolute;left:0pt;margin-left:0.15pt;margin-top:725.75pt;height:66.3pt;width:482.6pt;z-index:251667456;v-text-anchor:middle;mso-width-relative:page;mso-height-relative:page;" type="#_x0000_t202">
+						<v:fill focussize="0,0" on="f"/>
+						<v:stroke on="f" weight="0.5pt"/>
+						<v:imagedata o:title=""/>
+						<o:lock aspectratio="f" v:ext="edit"/>
+						<v:textbox inset="1mm,0mm,1mm,0mm">
+							<w:txbxContent>
+								<w:tbl>
+									<w:tblPr>
+										<w:tblStyle w:val="14"/>
+										<w:tblW w:type="auto" w:w="0"/>
+										<w:jc w:val="center"/>
+										<w:tblLayout w:type="autofit"/>
+										<w:tblCellMar>
+											<w:top w:type="dxa" w:w="85"/>
+											<w:left w:type="dxa" w:w="0"/>
+											<w:bottom w:type="dxa" w:w="85"/>
+											<w:right w:type="dxa" w:w="108"/>
+										</w:tblCellMar>
+									</w:tblPr>
+									<w:tblGrid>
+										<w:gridCol w:w="3382"/>
+										<w:gridCol w:w="1410"/>
+									</w:tblGrid>
+									<w:tr>
+										<w:tblPrEx>
+											<w:tblCellMar>
+												<w:top w:type="dxa" w:w="85"/>
+												<w:left w:type="dxa" w:w="0"/>
+												<w:bottom w:type="dxa" w:w="85"/>
+												<w:right w:type="dxa" w:w="108"/>
+											</w:tblCellMar>
+										</w:tblPrEx>
+										<w:trPr>
+											<w:jc w:val="center"/>
+										</w:trPr>
+										<w:tc>
+											<w:tcPr>
+												<w:tcW w:type="auto" w:w="0"/>
+												<w:tcBorders>
+													<w:tl2br w:val="nil"/>
+													<w:tr2bl w:val="nil"/>
+												</w:tcBorders>
+												<w:tcMar>
+													<w:top w:type="dxa" w:w="85"/>
+													<w:left w:type="dxa" w:w="0"/>
+													<w:bottom w:type="dxa" w:w="85"/>
+													<w:right w:type="dxa" w:w="0"/>
+												</w:tcMar>
+												<w:vAlign w:val="center"/>
+											</w:tcPr>
+											<w:p>
+												<w:pPr>
+													<w:keepNext w:val="0"/>
+													<w:keepLines w:val="0"/>
+													<w:pageBreakBefore w:val="0"/>
+													<w:widowControl w:val="0"/>
+													<w:kinsoku/>
+													<w:wordWrap/>
+													<w:overflowPunct/>
+													<w:topLinePunct w:val="0"/>
+													<w:bidi w:val="0"/>
+													<w:adjustRightInd/>
+													<w:snapToGrid w:val="0"/>
+													<w:spacing w:line="192" w:lineRule="auto"/>
+													<w:jc w:val="distribute"/>
+													<w:textAlignment w:val="auto"/>
+													<w:rPr>
+														<w:rFonts w:hint="default"/>
+														<w:spacing w:val="34"/>
+														<w:w w:val="75"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												{@releaseDepartment}
+											</w:p>
+										</w:tc>
+										<w:tc>
+											<w:tcPr>
+												<w:tcW w:type="auto" w:w="0"/>
+												<w:tcBorders>
+													<w:tl2br w:val="nil"/>
+													<w:tr2bl w:val="nil"/>
+												</w:tcBorders>
+												<w:tcMar>
+													<w:top w:type="dxa" w:w="85"/>
+													<w:left w:type="dxa" w:w="510"/>
+													<w:bottom w:type="dxa" w:w="85"/>
+													<w:right w:type="dxa" w:w="0"/>
+												</w:tcMar>
+												<w:vAlign w:val="center"/>
+											</w:tcPr>
+											<w:p>
+												<w:pPr>
+													<w:spacing w:line="240" w:lineRule="auto"/>
+													<w:jc w:val="center"/>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:b w:val="0"/>
+														<w:bCs w:val="0"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+												</w:pPr>
+												<w:r>
+													<w:rPr>
+														<w:rFonts w:ascii="黑体" w:cs="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:hint="eastAsia"/>
+														<w:spacing w:val="140"/>
+														<w:kern w:val="0"/>
+														<w:spacing w:val="85"/>
+														<w:sz w:val="28"/>
+														<w:szCs w:val="28"/>
+														<w:lang w:eastAsia="zh-CN" w:val="en-US"/>
+													</w:rPr>
+													<w:t>发布</w:t>
+												</w:r>
+											</w:p>
+										</w:tc>
+									</w:tr>
+								</w:tbl>
+								<w:p/>
+							</w:txbxContent>
+						</v:textbox>
+					</v:shape>
+				</w:pict>
+			</mc:Fallback>
+		</mc:AlternateContent>
+	</w:r>
+	{@stdLogo}
+</w:p>
+{@textBox}
+<w:p>
+	<w:pPr>
+		<w:sectPr>
+			<w:pgSz w:h="16838" w:w="11906"/>
+			<w:pgMar w:bottom="1111" w:footer="850" w:gutter="0" w:header="850" w:left="1417" w:right="850" w:top="567"/>
+			<w:pgNumType w:fmt="upperRoman"/>
+			<w:cols w:num="1" w:space="425"/>
+			<w:docGrid w:linePitch="312" w:type="lines"/>
+		</w:sectPr>
+	</w:pPr>
+</w:p>
