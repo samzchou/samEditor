@@ -3,7 +3,7 @@
     "publishMode": "Beta",
     "version": "1.0.0",
     "private": false,
-    "license": "ISC",
+    "license": "Apache-2.0",
     "main": "dist/sam-editor.umd.min.js",
     "repository": {
         "type": "git",
